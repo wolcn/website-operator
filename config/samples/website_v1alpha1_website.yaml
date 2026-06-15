@@ -4,6 +4,8 @@ metadata:
   labels:
     app.kubernetes.io/name: website-operator
     app.kubernetes.io/managed-by: kustomize
-  name: website-sample
+  name: blechnum
 spec:
-  # TODO(user): Add fields here
+   # TODO(user): Add fields here
+   gitRepo: "https://github.com/wolcn/blechnum.git"
+   replicas: 2

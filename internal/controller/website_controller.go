@@ -27,9 +27,9 @@ type WebsiteReconciler struct {
 	Scheme *runtime.Scheme
 }
 
-//+kubebuilder:rbac:groups=website.my.domain,resources=websites,verbs=get;list;watch;create;update;patch;delete
-//+kubebuilder:rbac:groups=website.my.domain,resources=websites/status,verbs=get;update;patch
-//+kubebuilder:rbac:groups=website.my.domain,resources=websites/finalizers,verbs=update
+//+kubebuilder:rbac:groups=website.wolcn.net,resources=websites,verbs=get;list;watch;create;update;patch;delete
+//+kubebuilder:rbac:groups=website.wolcn.net,resources=websites/status,verbs=get;update;patch
+//+kubebuilder:rbac:groups=website.wolcn.net,resources=websites/finalizers,verbs=update
 //+kubebuilder:rbac:groups=apps,resources=deployments,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=core,resources=services,verbs=get;list;watch;create;update;patch;delete
 

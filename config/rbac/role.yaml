@@ -29,7 +29,7 @@ rules:
   - update
   - watch
 - apiGroups:
-  - website.my.domain
+  - website.wolcn.net
   resources:
   - websites
   verbs:
@@ -41,13 +41,13 @@ rules:
   - update
   - watch
 - apiGroups:
-  - website.my.domain
+  - website.wolcn.net
   resources:
   - websites/finalizers
   verbs:
   - update
 - apiGroups:
-  - website.my.domain
+  - website.wolcn.net
   resources:
   - websites/status
   verbs:
